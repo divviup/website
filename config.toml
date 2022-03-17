@@ -1,5 +1,5 @@
-baseURL = "https://deploy-preview-1--mystifying-yalow-8b46ef.netlify.app"
 # baseURL = "https://mystifying-yalow-8b46ef.netlify.app"
+baseURL = "https://deploy-preview-1--mystifying-yalow-8b46ef.netlify.app"
 languageCode = "en-us"
 contentDir = "content/en"
 defaultContentLanguage = "en"
