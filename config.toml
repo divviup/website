@@ -1,4 +1,4 @@
-baseURL = "https://divviup-site.netlify.app"
+baseURL = "https://mystifying-yalow-8b46ef.netlify.app"
 languageCode = "en-us"
 contentDir = "content/en"
 defaultContentLanguage = "en"
