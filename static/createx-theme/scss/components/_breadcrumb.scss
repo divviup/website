@@ -2,7 +2,6 @@
 // Breadcrumb
 // --------------------------------------------------
 
-
 // Dark version
 
 .breadcrumb-item {
@@ -16,7 +15,6 @@
   }
 }
 
-
 // Light version
 
 .breadcrumb-alt.breadcrumb-light .breadcrumb-item,
@@ -27,16 +25,17 @@
       color: $breadcrumb-light-item-link-hover-color;
     }
   }
-  &.active { color: $breadcrumb-light-active-color; }
+  &.active {
+    color: $breadcrumb-light-active-color;
+  }
 }
-
 
 // Alternate breadcrumb style
 
 .breadcrumb-alt {
   .breadcrumb-item + .breadcrumb-item {
     &::before {
-      margin-top: .0625rem;
+      margin-top: 0.0625rem;
       font-family: $icon-font-family;
       content: escape-svg($breadcrumb-alt-divider);
     }

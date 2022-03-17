@@ -1,7 +1,12 @@
 <head>
   <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  <title>{{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}</title>
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1, shrink-to-fit=no"
+  />
+  <title>
+    {{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}
+  </title>
 
   <meta name="description" content="{{ .Site.Params.meta_description }}" />
   <meta name="author" content="Internet Security Research Group" />
@@ -17,8 +22,17 @@
     href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap"
     rel="stylesheet"
   />
-  <link rel="stylesheet" media="screen" href="/createx-theme/vendor/simplebar/dist/simplebar.min.css" />
-  <link rel="stylesheet" media="screen" href="/createx-theme/css/theme.min.css" />
-  {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS | resources.Minify | resources.Fingerprint }}
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="/createx-theme/vendor/simplebar/dist/simplebar.min.css"
+  />
+  <link
+    rel="stylesheet"
+    media="screen"
+    href="/createx-theme/css/theme.min.css"
+  />
+  {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS |
+  resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.Permalink }}?v={{ now}}" />
 </head>

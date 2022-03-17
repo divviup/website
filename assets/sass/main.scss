@@ -3,12 +3,15 @@
 @import "page";
 @import "post";
 
-body, h1, h2, h3, h4 {
+body,
+h1,
+h2,
+h3,
+h4 {
   color: var(--primary-text-color) !important;
 }
 
 #footer-logo {
-
   /* Blue logo with ISRG spelled out */
   margin-bottom: 5px;
   max-width: 100%;
@@ -39,7 +42,6 @@ body, h1, h2, h3, h4 {
 //     box-shadow: 0 10px 10px -2px rgba(0, 0, 0, 0.2);
 //   }
 // }
-
 
 #home-hero {
   .btn {
@@ -116,10 +118,118 @@ body {
 }
 
 a[name] {
-  scroll-padding-top: 50px
+  scroll-padding-top: 50px;
 }
 
 .navbar-brand {
   padding-top: 4px;
+}
 
+/* Mailchimp Form */
+
+#mc-embedded-subscribe-form input[type="checkbox"] {
+  display: inline;
+  width: auto;
+  margin-right: 10px;
+}
+#mergeRow-gdpr {
+  margin-top: 20px;
+}
+#mergeRow-gdpr fieldset label {
+  font-weight: normal;
+}
+#mc-embedded-subscribe-form .mc_fieldset {
+  border: none;
+  min-height: 0px;
+  padding-bottom: 0px;
+}
+
+#mc_embed_signup form {
+  padding: 0 !important;
+}
+
+#mc_embed_signup {
+  .content__gdpr p {
+    margin-bottom: 10px;
+  }
+  input[type="radio"] {
+    margin-right: 10px;
+  }
+
+  div#mce-responses {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .mc-field-group {
+    min-height: auto !important;
+  }
+
+  #mce-success-response,
+  #mc-embedded-subscribe-form div.mce_inline_error {
+    /* Error message*/
+    background-color: #fff !important;
+    border: 2px solid var(--teal-color) !important;
+    font-weight: bold !important;
+    color: var(--teal-color) !important;
+  }
+
+  #mce-success-response {
+    padding: 20px;
+    width: 100%;
+  }
+}
+
+.text-muted a {
+  color: #787a80 !important;
+  text-decoration-color: #787a80 !important;
+
+  &:hover {
+    color: #fff !important;
+    text-decoration-color: var(--teal-color) !important;
+  }
+}
+
+.email-field-container {
+  // max-width: 400px;
+
+  input {
+    width: 400px;
+    max-width: 100%;
+  }
+}
+
+.isrg-mailchimp-form {
+  label {
+    display: block;
+  }
+
+  input.email {
+    display: block;
+    margin-bottom: 5px;
+  }
+
+  div.mce_inline_error {
+    display: inline-block;
+    margin-top: 10px;
+  }
+
+  .mc-field-group {
+    margin-bottom: 20px;
+
+    input.mce_inline_error {
+      border-color: red !important;
+    }
+
+    ul {
+      list-style: none;
+      margin-bottom: 0;
+      padding-left: 0;
+
+      li {
+        input + label {
+          display: inline;
+        }
+      }
+    }
+  }
 }

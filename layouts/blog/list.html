@@ -1,10 +1,14 @@
 {{ define "main" }}
 <div>
-  {{ $posts := where .Site.RegularPages "Type" "in" (slice "blog") }} {{ range $posts }}
+  {{ $posts := where .Site.RegularPages "Type" "in" (slice "blog") }} {{ range
+  $posts }}
   <div class="mb-5 initiative_list_item__blogLanding">
     <div class="mb-2">{{ .Date.Format $.Site.Params.time_format_default }}</div>
     <h2 class="mb-2">{{ .Title }}</h2>
-    <p class="mb-2">{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</p>
+    <p class="mb-2">
+      {{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }}
+      {{ end }}
+    </p>
 
     <a class="fw-bold" href="{{ .Permalink }}">{{ i18n "read_more" }}</a><br />
     <br />

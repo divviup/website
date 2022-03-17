@@ -3,7 +3,7 @@
 // "Lift" a var to a sass variable if needed for a sass function. Otherwise,
 // keep vars as native css vars.
 
-$primary_background_color: rgb(0,21,167);
+$primary_background_color: rgb(0, 21, 167);
 $primary_button_background_color: #0af;
 $teal_color: #0af;
 $darker_background_color: darken($primary_background_color, 10%);
@@ -18,7 +18,7 @@ $page_horizontal_padding: 31px;
   --teal-color: #{$teal_color};
   --aquamarine-color: #7acee2;
 
-  --primary-text-color:#fff;
+  --primary-text-color: #fff;
   --primary-accent-color: #00c9ff;
   --primary-hover-color: #0114b5;
   --primary-link-color: #fff;
@@ -36,5 +36,4 @@ $page_horizontal_padding: 31px;
   --gray-4: #ccc;
   --gray-5: #e5e5e5;
   --gray-6: #f2f2f2;
-
 }

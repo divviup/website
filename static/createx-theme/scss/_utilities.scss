@@ -1,10 +1,9 @@
 //
 // Utilities
 // Extends default Bootstrap utility classes
-// Classes with a purpose to reduce the frequency of 
+// Classes with a purpose to reduce the frequency of
 // highly repetitive declarations
 // --------------------------------------------------
-
 
 // Disabled background of the element
 .bg-0 {
@@ -14,11 +13,10 @@
   background-image: none !important;
 }
 
-
 // Faded background color
 @each $color, $value in $theme-colors {
   .bg-faded-#{$color} {
-    background-color: rgba($value, .08) !important;
+    background-color: rgba($value, 0.08) !important;
   }
 }
 
@@ -40,20 +38,17 @@
   background-attachment: fixed !important;
 }
 
-
 // Background-position classes
 @each $bg-position, $value in $bg-position {
   @include background-position-variant($bg-position, $value);
 }
 
-
 // Background transition for links
 
-a[class^='bg-'],
-a[class*='bg-'] {
-  transition: background-color .25s ease;
+a[class^="bg-"],
+a[class*="bg-"] {
+  transition: background-color 0.25s ease;
 }
-
 
 // Overlay
 
@@ -65,7 +60,7 @@ a[class*='bg-'] {
   top: 0;
   left: 0;
   background-color: $gray-900;
-  opacity: .5;
+  opacity: 0.5;
   z-index: 1;
 }
 .bg-overlay-content {
@@ -76,7 +71,7 @@ a[class*='bg-'] {
 
 // Body font size variants: .font-size-{lg}
 @each $size, $value in $font-sizes {
-  @include font-size-variant('.font-size-#{$size}', $value);
+  @include font-size-variant(".font-size-#{$size}", $value);
 }
 .lead {
   font-size: $lead-font-size !important;
@@ -155,25 +150,39 @@ a[class*='bg-'] {
 }
 
 // Table layout fixed
-.table-fixed { table-layout: fixed !important; }
+.table-fixed {
+  table-layout: fixed !important;
+}
 
 // Disable animation
-.animation-0 { animation: none !important; }
+.animation-0 {
+  animation: none !important;
+}
 
 // Override dark text color
-.text-dark { color: $gray-900 !important; }
+.text-dark {
+  color: $gray-900 !important;
+}
 
 // Override secondary background color
-.bg-secondary { background-color: $gray-200 !important; }
+.bg-secondary {
+  background-color: $gray-200 !important;
+}
 
 // Override dark background color
-.bg-dark { background-color: $gray-900 !important; }
+.bg-dark {
+  background-color: $gray-900 !important;
+}
 
 // Gradient background
-.bg-gradient { @include gradient-background; }
+.bg-gradient {
+  @include gradient-background;
+}
 
 // Text-uppercase + letter-spacing
-.text-uppercase { letter-spacing: $letter-spacing !important; }
+.text-uppercase {
+  letter-spacing: $letter-spacing !important;
+}
 
 // For textual dividers (pipes)
 .text-border {
@@ -181,14 +190,19 @@ a[class*='bg-'] {
 }
 
 // For overriding links color
-.text-color-inherit { color: inherit !important; }
+.text-color-inherit {
+  color: inherit !important;
+}
 
 // Overflow-x hidden
-.overflow-x-hidden { overflow-x: hidden !important; }
+.overflow-x-hidden {
+  overflow-x: hidden !important;
+}
 
 // Overflow-y hidden
-.overflow-y-hidden { overflow-y: hidden !important; }
-
+.overflow-y-hidden {
+  overflow-y: hidden !important;
+}
 
 // Image scale on hover
 
@@ -201,15 +215,20 @@ a[class*='bg-'] {
     img {
       display: block;
       width: 100%;
-      transition: transform .3s ease-in-out;
+      transition: transform 0.3s ease-in-out;
       will-change: transform;
     }
   }
-  &:hover .cs-image-inner img { transform: scale(1.08); }
-  &.media:hover .cs-image-inner img { transform: scale(1.14); }
-  &.card-hover:hover { transform: translateY(0); }
+  &:hover .cs-image-inner img {
+    transform: scale(1.08);
+  }
+  &.media:hover .cs-image-inner img {
+    transform: scale(1.14);
+  }
+  &.card-hover:hover {
+    transform: translateY(0);
+  }
 }
-
 
 // Image fade on hover
 
@@ -223,41 +242,47 @@ a[class*='bg-'] {
   &::before {
     display: block;
     position: absolute;
-    top: -.125rem;
-    left: -.125rem;
-    width: calc(100% + .25rem);
-    height: calc(100% + .25rem);
+    top: -0.125rem;
+    left: -0.125rem;
+    width: calc(100% + 0.25rem);
+    height: calc(100% + 0.25rem);
     background-color: $white;
     border-radius: inherit;
-    transition: background-color .3s ease-in-out;
-    content: '';
+    transition: background-color 0.3s ease-in-out;
+    content: "";
     will-change: background-color;
     z-index: 2;
   }
   .cs-image-inner {
     position: relative;
     z-index: 3;
-    hr { transition: opacity .3s ease-in-out; }
+    hr {
+      transition: opacity 0.3s ease-in-out;
+    }
   }
   .cs-inner-text {
-    transition: color .3s ease-in-out;
+    transition: color 0.3s ease-in-out;
   }
-  img[src*='.svg'].cs-inner-img {
-    transition: filter .3s ease-in-out;
+  img[src*=".svg"].cs-inner-img {
+    transition: filter 0.3s ease-in-out;
     will-change: filter;
   }
   &:hover {
     &::before {
-      background-color: rgba($gray-900, .6);
+      background-color: rgba($gray-900, 0.6);
     }
     .cs-image-inner {
-      hr { opacity: .4; }
+      hr {
+        opacity: 0.4;
+      }
     }
     .cs-inner-text {
       color: $white;
-      &.nav-link:hover { color: rgba($white, .8); }
+      &.nav-link:hover {
+        color: rgba($white, 0.8);
+      }
     }
-    img[src*='.svg'].cs-inner-img {
+    img[src*=".svg"].cs-inner-img {
       filter: brightness(0) invert(1);
     }
   }
@@ -267,16 +292,20 @@ a[class*='bg-'] {
 
   @include media-breakpoint-down(sm) {
     &::before {
-      background-color: rgba($gray-900, .6);
+      background-color: rgba($gray-900, 0.6);
     }
     .cs-image-inner {
-      hr { opacity: .4; }
+      hr {
+        opacity: 0.4;
+      }
     }
     .cs-inner-text {
       color: $white;
-      &.nav-link:hover { color: rgba($white, .8); }
+      &.nav-link:hover {
+        color: rgba($white, 0.8);
+      }
     }
-    img[src*='.svg'].cs-inner-img {
+    img[src*=".svg"].cs-inner-img {
       filter: brightness(0) invert(1);
     }
   }
@@ -286,18 +315,37 @@ a.cs-image-fade {
   color: inherit;
 }
 
-
 // For card/nav styled links
 
 .cs-heading-highlight {
   text-decoration: none;
-  h1, h2, h3, h4, h5, h6,
-  .h1, .h2, .h3, .h4, .h5, .h6 {
-    transition: color .25s;
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6 {
+    transition: color 0.25s;
   }
   &:hover {
-    h1, h2, h3, h4, h5, h6,
-    .h1, .h2, .h3, .h4, .h5, .h6 {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    .h1,
+    .h2,
+    .h3,
+    .h4,
+    .h5,
+    .h6 {
       color: $primary;
     }
   }
@@ -313,7 +361,7 @@ a.cs-image-fade {
   .cs-swap-from,
   .cs-swap-to {
     display: block;
-    transition: opacity .3s ease-in-out;
+    transition: opacity 0.3s ease-in-out;
   }
 
   .cs-swap-to {
@@ -324,25 +372,37 @@ a.cs-image-fade {
     z-index: 0;
   }
 
-  &:hover, &.active {
-    .cs-swap-from { opacity: 0; }
-    .cs-swap-to { opacity: 1; }
+  &:hover,
+  &.active {
+    .cs-swap-from {
+      opacity: 0;
+    }
+    .cs-swap-to {
+      opacity: 1;
+    }
   }
 }
 .card.card-hover:hover .cs-swap-image,
 .card.card-active .cs-swap-image {
   .cs-swap-from,
-  .cs-swap-to { transition-duration: .25s; }
-  .cs-swap-from { opacity: 0; }
-  .cs-swap-to { opacity: 1; }
+  .cs-swap-to {
+    transition-duration: 0.25s;
+  }
+  .cs-swap-from {
+    opacity: 0;
+  }
+  .cs-swap-to {
+    opacity: 1;
+  }
 }
-
 
 // Faded icon dropdown
 
 .icon-dropdown {
   position: relative;
-  > .social-btn { margin-bottom: .5rem; }
+  > .social-btn {
+    margin-bottom: 0.5rem;
+  }
   &:hover {
     .icon-drop-menu {
       opacity: 1;
@@ -351,7 +411,7 @@ a.cs-image-fade {
     .icon-drop-item {
       transform: scale(1);
       opacity: 1;
-      @include multi-easing(3, .15, .1, ease-in);
+      @include multi-easing(3, 0.15, 0.1, ease-in);
     }
   }
 }
@@ -360,20 +420,20 @@ a.cs-image-fade {
   flex-direction: column;
   position: absolute;
   top: 100%;
-  left: -.5rem;
+  left: -0.5rem;
   margin: 0;
-  padding: .25rem;
+  padding: 0.25rem;
   list-style: none;
   border-radius: $border-radius;
   opacity: 0;
   visibility: hidden;
-  transition: all .25s ease-in-out;
+  transition: all 0.25s ease-in-out;
   z-index: 3;
   will-change: opacity;
 }
 .icon-drop-item {
-  padding: .25rem;
-  transform: scale(.7);
+  padding: 0.25rem;
+  transform: scale(0.7);
   opacity: 0;
   will-change: transform;
 }
@@ -383,10 +443,10 @@ a.cs-image-fade {
 .icon-dropleft {
   > .social-btn {
     margin-bottom: initial;
-    margin-left: .5rem;
+    margin-left: 0.5rem;
   }
   .icon-drop-menu {
-    top: -.5rem;
+    top: -0.5rem;
     right: 100%;
     left: initial;
     flex-direction: row-reverse;
@@ -395,10 +455,10 @@ a.cs-image-fade {
 .icon-dropright {
   > .social-btn {
     margin-bottom: initial;
-    margin-right: .5rem;
+    margin-right: 0.5rem;
   }
   .icon-drop-menu {
-    top: -.5rem;
+    top: -0.5rem;
     right: initial;
     left: 100%;
     flex-direction: row;
@@ -407,16 +467,15 @@ a.cs-image-fade {
 .icon-dropup {
   > .social-btn {
     margin-bottom: initial;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
   }
   .icon-drop-menu {
     top: initial;
-    left: -.5rem;
+    left: -0.5rem;
     bottom: 100%;
     flex-direction: column-reverse;
   }
 }
-
 
 // Binded content
 
@@ -430,8 +489,8 @@ a.cs-image-fade {
   width: 100%;
   height: 100%;
   will-change: opacity, transform;
-  transition: opacity .3s ease-in-out, transform .3s ease-in-out;
-  transform: scale(.95);
+  transition: opacity 0.3s ease-in-out, transform 0.3s ease-in-out;
+  transform: scale(0.95);
   opacity: 0;
   pointer-events: none;
   cursor: default;
@@ -445,14 +504,13 @@ a.cs-image-fade {
   }
 }
 
-
 // Custom collapse toggler
 
 .cs-collapse-toggler {
   position: relative;
   padding-right: 1.75rem;
 
-  &[aria-expanded=false],
+  &[aria-expanded="false"],
   &.collapsed {
     &::before {
       position: static;
@@ -472,7 +530,7 @@ a.cs-image-fade {
   &::after {
     top: 0;
     left: 0;
-    transition: opacity .25s ease-in-out;
+    transition: opacity 0.25s ease-in-out;
   }
   &::before {
     position: absolute;
@@ -494,7 +552,6 @@ a.cs-image-fade {
     transform: rotate(180deg);
   }
 }
-
 
 // Switch visibility of an element
 

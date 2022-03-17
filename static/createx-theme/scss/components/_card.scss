@@ -2,21 +2,24 @@
 // Card
 // --------------------------------------------------
 
-
 // Card title
 
-.card-title { margin-bottom: $card-spacer-y * .6; }
-
+.card-title {
+  margin-bottom: $card-spacer-y * 0.6;
+}
 
 // Card link
 
 a.card:hover,
-a.card-body:hover { text-decoration: none; }
-
+a.card-body:hover {
+  text-decoration: none;
+}
 
 // Card hover / active state
 
-.card-hover { transition: $card-transition; }
+.card-hover {
+  transition: $card-transition;
+}
 .card {
   &.card-hover:hover,
   &.card-active {
@@ -31,11 +34,9 @@ a.card-body:hover { text-decoration: none; }
   }
 }
 
-
 // Horizontal card
 
 .card-horizontal {
-
   .card-img-top,
   .card-img-bottom {
     flex-shrink: 0;
@@ -71,7 +72,6 @@ a.card-body:hover { text-decoration: none; }
   }
 }
 
-
 // Header navs
 
 .card-header-tabs,
@@ -82,8 +82,8 @@ a.card-body:hover { text-decoration: none; }
     left: 0;
   }
   padding: {
-    top: $card-spacer-y * .333;
-    bottom: $card-spacer-y * .333;
+    top: $card-spacer-y * 0.333;
+    bottom: $card-spacer-y * 0.333;
   }
 
   .nav-link.active {

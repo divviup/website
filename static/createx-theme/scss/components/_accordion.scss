@@ -2,7 +2,6 @@
 // Accordion
 // --------------------------------------------------
 
-
 // General
 
 .accordion-button {
@@ -17,8 +16,8 @@
 
   &::after {
     margin: {
-      top: .25em;
-      right: $accordion-icon-width * .75;
+      top: 0.25em;
+      right: $accordion-icon-width * 0.75;
       left: 0;
     }
   }
@@ -31,11 +30,9 @@
   }
 }
 
-
 // Accordion alt
 
 .accordion-alt {
-
   .accordion-item {
     border: {
       bottom: $border-width solid $border-color;
@@ -70,9 +67,10 @@
   }
 }
 
-
 // Disabling accordion indicator
 
 .accordion-button.accordion-button-indicator-0 {
-  &::after { display: none; }
+  &::after {
+    display: none;
+  }
 }

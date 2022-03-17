@@ -2,14 +2,12 @@
 // Mixins
 // --------------------------------------------------
 
-
 // Font smoothing
 
 @mixin font-smoothing {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 // Appearance
 
@@ -19,14 +17,19 @@
   appearance: $value;
 }
 
-
 // Gradient background
 
-@mixin gradient-background($gradient-from: $gradient-from-color, $gradient-to: $gradient-to-color) {
+@mixin gradient-background(
+  $gradient-from: $gradient-from-color,
+  $gradient-to: $gradient-to-color
+) {
   background: $gradient-from !important;
-  background: linear-gradient(55.95deg, $gradient-from 0%, $gradient-to 100%) !important;
+  background: linear-gradient(
+    55.95deg,
+    $gradient-from 0%,
+    $gradient-to 100%
+  ) !important;
 }
-
 
 // Multiple items easing
 

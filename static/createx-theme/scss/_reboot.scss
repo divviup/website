@@ -10,7 +10,8 @@ html * {
 }
 
 // Sticky footer
-html, body {
+html,
+body {
   height: 100%;
 }
 body {
@@ -24,16 +25,23 @@ body {
   flex-shrink: 0;
 }
 
-@media screen and (-ms-high-contrast: active), screen and (-ms-high-contrast: none) {  
-  html, body { height: auto; }
-  body { display: block; }
+@media screen and (-ms-high-contrast: active),
+  screen and (-ms-high-contrast: none) {
+  html,
+  body {
+    height: auto;
+  }
+  body {
+    display: block;
+  }
 }
-
 
 // Links
 a {
   transition: $link-transition;
-  &:focus { outline: none; }
+  &:focus {
+    outline: none;
+  }
 }
 
 // Images
@@ -44,7 +52,9 @@ figure {
   height: auto;
   vertical-align: middle;
 }
-svg { max-width: 100%; }
+svg {
+  max-width: 100%;
+}
 
 // Responsive iframes
 iframe {
@@ -65,9 +75,13 @@ strong {
   font-weight: $font-weight-bold;
 }
 
-small { font-weight: inherit; }
+small {
+  font-weight: inherit;
+}
 
-cite { font-style: normal; }
+cite {
+  font-style: normal;
+}
 
 // Disable button :focus outline
 button:focus {

@@ -10,7 +10,8 @@ a {
   text-decoration-color: var(--primary-accent-color);
   text-decoration-thickness: 1px;
 
-  &:hover,&:focus {
+  &:hover,
+  &:focus {
     text-decoration: underline;
     text-decoration-color: var(--teal-color);
     text-decoration-thickness: 2px;
@@ -38,7 +39,6 @@ a.nav-link:hover {
   &:hover {
     background-color: darken($primary_button_background_color, 5%) !important;
     border-color: darken($primary_button_background_color, 5%) !important;
-
   }
 }
 
@@ -63,7 +63,6 @@ a.nav-link:hover {
 .dropdown-item:focus {
   // color: var(--primary-text-color) !important;
 }
-
 
 .navbar-light .navbar-toggler-icon,
 .navbar-light .navbar-toggler-icon::before,
@@ -91,7 +90,6 @@ footer {
     color: #fff !important;
   }
 }
-
 
 body,
 .tooltip,
@@ -133,8 +131,6 @@ body,
   flex: 1 0 auto;
 }
 
-
-
 /* Divvi */
 .navbar-stuck #logo-white {
   display: none;
@@ -175,30 +171,26 @@ header .dropdown-menu a {
 
 h1.page-title {
   font-size: calc(1.425rem + 2.1vw);
-    font-weight: 500;
-    line-height: 1.2;
-    color: #fff !important;
+  font-weight: 500;
+  line-height: 1.2;
+  color: #fff !important;
 }
-
 
 .why-cards {
   padding-left: 0;
   padding-right: 0;
 
   .card {
-
     background-color: #fff;
     border-color: var(--teal-color);
     border-width: 2px;
 
-    &,h3 {
-
+    &,
+    h3 {
       color: #1a1a1a !important;
     }
   }
-
 }
-
 
 .large-btn {
   display: block;
@@ -209,12 +201,11 @@ h1.page-title {
   margin-bottom: 40px;
   color: #fff !important;
   text-decoration: none;
-  background-color:darken($primary_background_color, 3%);
+  background-color: darken($primary_background_color, 3%);
 
   &:hover {
     text-decoration: none;
-    background-color:darken($primary_background_color,10%);
-
+    background-color: darken($primary_background_color, 10%);
   }
 
   span {
@@ -269,10 +260,12 @@ h1.page-title {
   height: 8px;
 }
 
-.tns-nav-inverse [data-nav]::before, .tns-nav-outside [data-nav]::before {
+.tns-nav-inverse [data-nav]::before,
+.tns-nav-outside [data-nav]::before {
   background-color: var(--teal-color);
 }
-  .tns-nav-inverse [data-nav], .tns-nav-outside [data-nav]{
+.tns-nav-inverse [data-nav],
+.tns-nav-outside [data-nav] {
   background-color: white;
 
   &:hover {
@@ -306,5 +299,4 @@ $height_of_header_and_padding: 110px;
   padding-right: 0 !important;
   max-width: 100%;
   width: 100%;
-
 }

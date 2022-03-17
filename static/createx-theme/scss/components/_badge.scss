@@ -2,7 +2,6 @@
 // Badge
 // --------------------------------------------------
 
-
 .badge-secondary,
 .badge-light {
   color: $body-color;
@@ -12,14 +11,14 @@
   color: $white;
 }
 
-
 // Badge link
 
 a.badge {
   text-decoration: none;
-  &.badge-warning:hover { color: $white; }
+  &.badge-warning:hover {
+    color: $white;
+  }
 }
-
 
 // Badge floating (absolute position)
 
@@ -29,7 +28,7 @@ a.badge {
     top: $badge-floating-offset-y;
     left: $badge-floating-offset-x;
     z-index: 2;
-    
+
     // Alignment
     &.badge-floating-right {
       left: auto;

@@ -2,7 +2,12 @@
   <div class="blog-body">
     <div class="blog-date mb-1">{{.Date.Format "January 2, 2006"}}</div>
     <h3 class="mb-1 fs-lg">{{ .Title }}</h3>
-    <p class="mb-1">{{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }} {{ end }}</p>
-    <a href="{{ .Permalink }}" class="link fw-bold" data-link="1">{{ i18n "read_more" }}</a>
+    <p class="mb-1">
+      {{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }}
+      {{ end }}
+    </p>
+    <a href="{{ .Permalink }}" class="link fw-bold" data-link="1"
+      >{{ i18n "read_more" }}</a
+    >
   </div>
 </div>

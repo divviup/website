@@ -2,4 +2,3 @@
 node_modules
 public/
 .netlify
-.hugo_build.lock
