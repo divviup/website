@@ -11,6 +11,8 @@ address_line_1 = "548 Market St, PMB 57274"
 address_line_2 = "San Francisco, California 94104-5401"
 images = ["images/DivviUpSocialShare.png"]
 meta_description = "Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics, brought to you by the Internet Security Research Group."
+social_share_twitter_square = "images/DivviUpSocialShare-Twitter.png"
+
 
 # Date and time formatting, see https://gohugo.io/functions/format/
 time_format_default = "Jan 2, 2006"

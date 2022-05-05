@@ -6,7 +6,7 @@
       {{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }}
       {{ end }}
     </p>
-    <a href="{{ .Permalink }}" class="link fw-bold" data-link="1"
+    <a href="{{ .RelPermalink }}" class="link fw-bold" data-link="1"
       >{{ i18n "read_more" }}</a
     >
   </div>
