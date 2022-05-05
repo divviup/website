@@ -10,7 +10,7 @@
       {{ end }}
     </p>
 
-    <a class="fw-bold" href="{{ .Permalink }}">{{ i18n "read_more" }}</a><br />
+    <a class="fw-bold" href="{{ .RelPermalink }}">{{ i18n "read_more" }}</a><br />
     <br />
   </div>
   {{ end }} {{ with .Site.Home.OutputFormats.Get "RSS" -}}
