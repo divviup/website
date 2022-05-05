@@ -1,7 +1,7 @@
 ---
 author: Tim Geoghegan
-date: 2022-05-05T00:00:00Z
 slug: lessons-from-running-MPC-at-scale
+date: 2022-05-05T00:00:00Z
 title: "Exposure Notifications Private Analytics: Lessons Learned From Running Secure MPC at Scale"
 excerpt: "ISRG is part of the largest secure multi-party computation deployments. We’re sharing some lessons learned while building and running this system."
 ---
