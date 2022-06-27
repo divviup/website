@@ -18,7 +18,19 @@ $readable_page_title_font: 52px;
   }
 }
 
+@media screen and (max-width: 767.98px) {
+  .tpl-post .cs-page-wrapper {
+    margin-top: 70px !important; /* affects visual appearance of the blue nav on a page with white bg */
+  }
+}
+
 .tpl-post {
+  .partial-hero {
+    & > .container {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
   footer {
     // border-top: 1px solid var(--teal-color);
   }
@@ -27,11 +39,9 @@ $readable_page_title_font: 52px;
   }
 
   .author-bg {
-    padding: 10px 15px;
-    // transform: translateX(-15px);
-    background-color: var(--teal-color);
-    margin-bottom: 20px;
-    color: #fff;
+    color: var(--teal-color);
+    margin-top: 10px;
+    margin-bottom: 25px;
     font-weight: 700;
     display: inline-block;
   }
@@ -61,8 +71,8 @@ $readable_page_title_font: 52px;
     margin-right: auto;
 
     color: #fff !important;
-    font-size: $readable_page_title_font;
-    line-height: $readable_page_title_line_height;
+    // font-size: $readable_page_title_font;
+    // line-height: $readable_page_title_line_height;
     // text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
   }
 
