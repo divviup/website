@@ -2,8 +2,10 @@
 <div class="article_content">
   <header>
     <p>
+      <span class="author-bg">
       {{ .Params.author }}<br />{{ .Date.Format
       $.Site.Params.time_format_default }}
+      </span>
     </p>
   </header>
   <article>{{ .Content }}</article>
