@@ -1,5 +1,5 @@
 <section
-  class="partial-hero slice slice-isrg bg-gradient-secondary"
+  class="partial-hero slice slice-isrg bg-gradient-secondary theme-{{ .Params.theme}}"
   data-separator="rounded-left"
   data-separator-orientation="bottom"
 >
@@ -7,7 +7,7 @@
     <div class="row">
       <div class="col-lg-12 py-4">
         {{if ne .Params.hide_h1 true}}
-        <h1 class="page-title">{{ .Params.Title }}</h1>
+        <h1 class="page-title text-white display-4 mb-lg-5">{{ .Params.Title }}</h1>
         {{ end }} {{ if .Params.subtitle }}
         <h5 class="mb-4">{{ .Params.Subtitle }}</h5>
         {{ end }}
