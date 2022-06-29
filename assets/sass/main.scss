@@ -243,3 +243,31 @@ video::-webkit-media-controls-panel {
   background-image: none !important;
   // filter: brightness(0.4);
 }
+
+.tpl-post #promo_announcement {
+  margin-top: 0;
+}
+#promo_announcement {
+  display: block;
+  padding: 10px;
+  background-color: var(--teal-color);
+  color: #fff !important;
+  text-decoration-color: #fff;
+  text-decoration: none;
+
+  &:hover {
+    background-color: darken($primary_button_background_color, 5%) !important;
+  }
+  // background-color: #fff;
+  // color: var(--teal-color) !important;
+  margin-top: 90px;
+
+  text-align: center;
+  font-weight: bold;
+}
+
+@media screen and (max-width:575.98px) {
+  #promo_announcement {
+    margin-top: 66px;
+  }
+}
