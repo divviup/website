@@ -241,7 +241,6 @@ a[name] {
 
 video::-webkit-media-controls-panel {
   background-image: none !important;
-  // filter: brightness(0.4);
 }
 
 .tpl-post #promo_announcement {
@@ -258,10 +257,7 @@ video::-webkit-media-controls-panel {
   &:hover {
     background-color: darken($primary_button_background_color, 5%) !important;
   }
-  // background-color: #fff;
-  // color: var(--teal-color) !important;
   margin-top: 90px;
-
   text-align: center;
   font-weight: bold;
 }
