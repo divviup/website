@@ -243,8 +243,10 @@ video::-webkit-media-controls-panel {
   background-image: none !important;
 }
 
-.tpl-post #promo_announcement {
-  margin-top: 0;
+.tpl-page .cs-page-wrapper, .tpl-post {
+  #promo_announcement {
+    margin-top: 0;
+  }
 }
 #promo_announcement {
   display: block;
