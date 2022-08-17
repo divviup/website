@@ -13,3 +13,11 @@
   to = "/404.html"
   status = 404
   force = false
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Strict-Transport-Security = '''
+    max-age=63072000;
+    includeSubDomains;
+    preload'''
