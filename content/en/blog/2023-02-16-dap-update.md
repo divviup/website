@@ -1,6 +1,6 @@
 ---
 author: Tim Geoghegan
-date: 2023-02-14T12:00:00Z
+date: 2023-02-16T12:00:00Z
 slug: DAP-Update
 title: "An update on Divvi Up and the Distributed Aggregation Protocol"
 excerpt: "A new aggregation algorithm and preparing for production."
