@@ -1,5 +1,5 @@
 /*
-    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'  https://fonts.googleapis.com; script-src 'self' https://letsencrypt.us14.list-manage.com; img-src 'self' data:; frame-src 'self'; font-src 'self' https://fonts.gstatic.com data:; media-src 'self'; object-src 'self';
+    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'  https://fonts.googleapis.com; script-src 'self'; img-src 'self' data:; frame-src 'self' https://outreach.abetterinternet.org; font-src 'self' https://fonts.gstatic.com data:; media-src 'self'; object-src 'self';
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
