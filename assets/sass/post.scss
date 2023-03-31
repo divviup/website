@@ -134,16 +134,10 @@ $readable_page_title_font: 52px;
 }
 
 .two-image-row {
-      max-width: 800px;
+      max-width: 680px;
       margin: 0 auto 1.5em;
       align-items: center;
       padding: 0px;
-  }
-
-  @media screen and (min-width: 767.98px) {
-      .two-image-row {
-          padding: 0 20px;
-      }
   }
 
 
