@@ -132,3 +132,52 @@ $readable_page_title_font: 52px;
     }
   }
 }
+
+.two-image-row {
+      max-width: 800px;
+      margin: 0 auto 1.5em;
+      align-items: center;
+      padding: 0px;
+  }
+
+  @media screen and (min-width: 767.98px) {
+      .two-image-row {
+          padding: 0 20px;
+      }
+  }
+
+
+  .quote-text p {
+    font-size: 24px !important;
+    line-height: 36px !important;
+    font-style: italic;
+    font-weight: bold;
+    color: #000;
+}
+
+blockquote.blockquote {
+    padding: 0;
+    max-width: 680px;
+    margin: 0 auto 1.5em;
+}
+
+blockquote.blockquote::before {
+    left: -45px;
+}
+
+.blockquote-footer {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (max-width: 767.98px) {
+    blockquote.blockquote {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    blockquote.blockquote::before {
+        left: 0px;
+        top: 5px;
+        transform: scale(.75);
+    }
+}
