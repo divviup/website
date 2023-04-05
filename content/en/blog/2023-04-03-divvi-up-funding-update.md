@@ -1,21 +1,12 @@
 ---
 author: Sarah Gran
-date: 2023-04-03T12:00:00Z
+date: 2023-04-05T12:00:00Z
 slug: divvi-up-funding-update
 title: "Divvi Up Receives Funding from Internet Society Foundation and Meta"
 excerpt: "Support for ISRG’s newest project, Divvi Up, a service for privacy-preserving metrics"
 ---
 
 For the last two years, ISRG has been developing Divvi Up and the Internet Engineering Task Force (IETF)'s Distributed Aggregation Protocol [(DAP)](https://www.ietf.org/archive/id/draft-ietf-ppm-dap-02.html) standard. Funding from Internet Society Foundation and Meta will support our continued progress toward the productionization of this service.
-
-<div class="row two-image-row">
-    <div class="col-6">
-        <img class="img-fluid" alt="Meta" src="/images/blog/logo-meta.png" />
-    </div>
-    <div class="col-6">
-        <img class="img-fluid" alt="Internet Society Foundation" src="/images/blog/logo-internet-society-foundation.svg" />
-    </div>
-</div>
 
 Divvi Up balances wanting to understand metrics about a population of users without infringing upon the privacy of any individual user through the use of cryptography and multi-party computation. Our goal is to be the impetus for a healthy, secure, robust ecosystem for privacy-respecting metrics collection, of which Divvi Up is one player.
 
