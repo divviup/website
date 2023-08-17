@@ -1,6 +1,6 @@
 ---
 author: Josh Aas
-date: 2023-08-16T12:00:00Z
+date: 2023-08-17T00:00:00Z
 slug: preparing-for-first-subscribers
 title: "Preparing for Our First Subscribers & New Funding"
 excerpt: "On the road to a privacy-preserving metrics MPC service that is ready for production"
