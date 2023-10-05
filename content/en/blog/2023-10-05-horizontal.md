@@ -24,7 +24,7 @@ For any organization, storing user data is a privacy and compliance risk. For or
 
 ## Technologically protecting privacy
 
-Divvi Up makes it possible for Horizontal to gain insights about how their population of users interacts with Tella and Shira without any knowledge of specific users. Unlike any other privacy-respecting system available, Divvi Up has the math and design to protect user privacy while delivering telemetric insights. Here's the a deep dive on how it works:
+Divvi Up makes it possible for Horizontal to gain insights about how their population of users interacts with Tella and Shira without any knowledge of specific users. Unlike any other privacy-respecting system available, Divvi Up has the math and design to protect user privacy while delivering telemetric insights. Here's a deep dive on how it works:
 
 When an app contributes to telemetry, it first turns the measurement of interest into one or more numbers. When using Divvi Up, each number is split up into two shares using an additive secret sharing scheme. One of the secret shares is a randomly chosen number, and the other is computed by subtracting the same random number from the measurement number. (All addition and subtraction is done using modular arithmetic, so negative numbers wrap around to a different positive number.) Now, the two secret shares add up to the original measurement, but each secret share on its own looks like a random number. Each set of secret shares will be uploaded to separate servers, one operated by Divvi Up, and the other by Horizontal. The secret shares won't ever be reunited once they leave the app, which protects the privacy of individual users' measurements.
 
