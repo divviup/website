@@ -103,9 +103,13 @@ $readable_page_title_font: 52px;
 
     }
 
-    p {
+    li,p {
       font-size: $readable_font_size;
       line-height: $readable_line_height;
+    }
+
+    ul {
+      margin-bottom: $readable_line_height;
     }
 
     .partial-hero {
