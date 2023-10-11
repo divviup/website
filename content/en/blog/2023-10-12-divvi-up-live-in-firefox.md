@@ -16,11 +16,7 @@ Initial pilots with Firefox proved the privacy guarantees and other properties o
 
 The Firefox deployment is a good demonstration of how DAP can help. Collecting user metrics such as the relative frequency of visits to different web pages would help Firefox engineers identify the most important bugs to fix and features to optimize, but this information could also be privacy-invasive if it wasn't de-identified and aggregated. In the DAP system, metrics are split into two unintelligible parts. One goes to a Divvi Up aggregator and the other goes to an aggregator run by Mozilla. Each organization aggregates the parts received from all clients and returns a partial sum to Mozilla, who then combines the results into one aggregate output.
 
-![](/images/blog/Divvi-Up-How-It-Works-Mozilla1.mov)
-<video poster="/video/Divvi-Up-How-It-Works-Mozilla1-First-Frame.jpg" style="width: 100%; aspect-ratio: 16/9;" autoplay="autoplay" playsinline="" loop="" controls="" muted="">
-              <source src="/video//video/Divvi-Up-How-It-Works-Mozilla1.mov" type="video/mp4">
-              Your browser does not support the video tag.
-            </video>
+<div style="padding:56.25% 0 0 0;position:relative; margin-bottom: 34px;"><iframe src="https://player.vimeo.com/video/873504129?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Divvi Up How It Works Mozilla1"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
 We are excited to continue developing DAP and Janus in the future. We will soon begin testing with the [Poplar aggregation scheme](https://eprint.iacr.org/2021/017.pdf), which will allow commonly reported values like URLs to be discovered without impinging on the privacy of individual reports.
 
