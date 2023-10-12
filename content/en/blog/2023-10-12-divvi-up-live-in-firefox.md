@@ -1,8 +1,8 @@
 ---
 author: Bran Pitman
 date: 2023-10-12T00:00:00Z
-title: "Divvi Up is providing privacy-preserving metrics for Firefox"
 slug: divvi-up-in-firefox
+title: "Divvi Up is providing privacy-preserving metrics for Firefox"
 excerpt: "Firefox telemetry metrics will be collected in a privacy-preserving way with Divvi Up."
 ---
 
