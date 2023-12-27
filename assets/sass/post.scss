@@ -169,13 +169,55 @@ blockquote.blockquote::before {
 }
 
 @media screen and (max-width: 767.98px) {
-    blockquote.blockquote {
-        padding-left: 30px;
-        padding-right: 30px;
-    }
-    blockquote.blockquote::before {
-        left: 0px;
-        top: 5px;
-        transform: scale(.75);
-    }
+  blockquote.blockquote {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  blockquote.blockquote::before {
+    left: 0px;
+    top: 5px;
+    transform: scale(.75);
+  }
+}
+.pic-quote-right {
+  margin: 0 0 1.5em 0;
+}
+
+@media screen and (min-width: 497.98px) {
+.pic-quote-right {
+  float: right;
+  margin: 0 0 1.5em 1.5em;
+  max-width: 40%;
+}
+}
+
+.tpl-post h1.page-title {
+  margin-bottom: 0 !important;
+}
+
+
+.post-footer {
+  background-color: var(--primary-background-color);
+  color: #fff;
+  padding: 1.5rem;
+  margin-top: 2rem;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+
+.tpl-post #container-blog .post-footer a {
+  color: #fff !important;
+}
+
+.post-footer h6 {
+  font-size: 20px;
+  line-height: 1;
+  color: #fff;
+  font-weight: bold;
+  margin-top: 0;
+}
+
+
+.post-footer p:last-child {
+  margin-bottom: 0;
 }
