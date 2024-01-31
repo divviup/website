@@ -12,6 +12,10 @@ address_line_2 = "San Francisco, California 94104-5401"
 images = ["images/DivviUpSocialShare.png"]
 meta_description = "Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics, brought to you by the Internet Security Research Group."
 social_share_twitter_square = "images/DivviUpSocialShare-Twitter.png"
+promoAnnouncementEnabled = false
+# Previous usage of promoAnnouncementLink and promoAnnouncementText
+promoAnnouncementLink = "https://abetterinternet.org/tenth-anniversary"
+promoAnnouncementText = "ISRG celebrates 10 years of helping build a brighter Internet"
 
 
 # Date and time formatting, see https://gohugo.io/functions/format/
@@ -38,3 +42,4 @@ languageName ="English"
 # Weight used for sorting.
 weight = 1
 description = "Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics, brought to you by the Internet Security Research Group."
+
