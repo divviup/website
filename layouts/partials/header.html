@@ -100,6 +100,8 @@
         </nav>
       </div>
     </header>
-    <a id="promo_announcement" href="https://abetterinternet.org/tenth-anniversary">
-      <span class="promo-title">ISRG celebrates 10 years of helping build a brighter Internet</span> →
+    {{ if .Site.Params.promoAnnouncementEnabled }}
+    <a id="promo_announcement" href="{{ .Site.Params.promoAnnouncementLink }}">
+      <span class="promo-title">{{ .Site.Params.promoAnnouncementText }}</span> →
     </a>
+    {{ end }}
