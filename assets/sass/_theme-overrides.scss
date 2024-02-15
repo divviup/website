@@ -1,5 +1,35 @@
 /* Keep styles here that are specific to overriding the theme */
 
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Thin.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lato';
+  src: url('/fonts/Lato/Lato-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+
+
 @import "_variables";
 
 //
@@ -197,8 +227,8 @@ h1.page-title {
   display: block;
   border: 1px solid var(--footer-background-color);
   border-radius: 15px;
-  padding: 15px 25px;
   height: 100px;
+  padding: 15px 25px;
   margin-bottom: 40px;
   color: #fff !important;
   text-decoration: none;
@@ -208,6 +238,9 @@ h1.page-title {
     text-decoration: none;
     background-color: darken($primary_background_color, 10%);
   }
+  @media screen and (max-width: 499.98px) {
+    padding: 20px 15px;
+  }
 
   span {
     display: block;
@@ -216,6 +249,15 @@ h1.page-title {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
+
+      @media screen and (max-width: 499.98px) {
+        font-size: 16px;
+      }
+    }
+    &.the-email {
+      @media screen and (max-width: 499.98px) {
+        font-size: 13px;
+      }
     }
   }
 }

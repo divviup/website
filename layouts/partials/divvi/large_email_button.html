@@ -1,4 +1,9 @@
-<a class="large-btn large-btn-email" href="mailto:{{ .email }}"
-  ><span class="the-name">{{.name}}</span
-  ><span class="the-email">{{.email}}</span></a
+<a
+  class="large-btn large-btn-email"
+  href="{{ if .url }}{{ .url }}{{ else }}mailto:{{ .email }}{{ end }}"
 >
+  <span class="the-name">{{ .name }}</span>
+  <span class="the-email">
+    {{ if .details }} {{ .details }} {{ else }} {{ .email }} {{ end }}</span
+  >
+</a>
