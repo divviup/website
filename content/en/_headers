@@ -1,5 +1,5 @@
 /*
-    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' https://player.vimeo.com https://netlify-cdp-loader.netlify.app; img-src 'self' data:; frame-src 'self' https://outreach.abetterinternet.org; font-src 'self' data:; media-src 'self'; object-src 'self';
+    Content-Security-Policy: default-src 'none'; style-src 'self' 'unsafe-inline'; script-src 'self' https://netlify-cdp-loader.netlify.app; img-src 'self' data:; frame-src 'self' https://outreach.abetterinternet.org; font-src 'self' data:; media-src 'self'; object-src 'self';
     X-Frame-Options: DENY
     X-XSS-Protection: 1; mode=block
     X-Content-Type-Options: nosniff
