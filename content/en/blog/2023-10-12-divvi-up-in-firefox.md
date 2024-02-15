@@ -17,7 +17,7 @@ Initial pilots with Firefox proved the privacy guarantees and other properties o
 The Firefox deployment is a good demonstration of how DAP can help. Collecting user metrics such as the relative frequency of visits to different web pages would help Firefox engineers identify the most important bugs to fix and features to optimize, but this information could also be privacy-invasive if it wasn't de-identified and aggregated. In the DAP system, metrics are split into two unintelligible parts. One goes to a Divvi Up aggregator and the other goes to an aggregator run by Mozilla. Each organization aggregates the parts received from all clients and returns a partial sum to Mozilla, who then combines the results into one aggregate output.
 
 <div class="pb-4">
-    <video poster="/video/Divvi-Up-How-it-Works-Mozilla-first-frame.png" style="width: 100%; aspect-ratio: 16/9;" autoplay="autoplay" playsinline loop controls muted>
+    <video poster="/video/Divvi-Up-How-it-Works-Mozilla-first-frame.png" style="width: 100%; max-width: 100%; aspect-ratio: 16/9;" autoplay="autoplay" playsinline loop controls muted>
         <source src="/video/Divvi-Up-How-it-Works-Mozilla.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
