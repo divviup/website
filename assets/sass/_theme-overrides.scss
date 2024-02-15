@@ -238,6 +238,9 @@ h1.page-title {
     text-decoration: none;
     background-color: darken($primary_background_color, 10%);
   }
+  @media screen and (max-width: 499.98px) {
+    padding: 20px 15px;
+  }
 
   span {
     display: block;
@@ -246,6 +249,15 @@ h1.page-title {
       font-size: 20px;
       font-weight: bold;
       margin-bottom: 10px;
+
+      @media screen and (max-width: 499.98px) {
+        font-size: 16px;
+      }
+    }
+    &.the-email {
+      @media screen and (max-width: 499.98px) {
+        font-size: 13px;
+      }
     }
   }
 }
