@@ -2,22 +2,20 @@
 <html lang="en" class="tpl-post page__{{ .Permalink | relURL | anchorize }}">
   {{ partial "head.html" . }}
     {{ partial "header.html" . }}
-
         <main>
-
             <h1>Contact</h1>
-
-
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-6">
-
                         {{ partial "divvi/large_email_button.html" (dict "email" "press@divviup.org" "name" "Press Inquiries" ) }}
                         {{ partial "divvi/large_email_button.html" (dict "email" "sponsor@divviup.org" "name" "Sponsorship" ) }}
+                        <div class="pb-5">
+                            <h2>Enrollment</h2>
+                            <p>If you would like to use Divvi Up, please <a href="/get-involved">join our waitlist</a>.</p>
+                        </div>
                     </div>
                 </div>
             </div>
-
             <div class="invert-container py-4">
                 <div class="container">
                     <div class="row">
@@ -32,6 +30,6 @@
                     </div>
                 </div>
             </div>
-
+        </main>
     {{ partial "footer.html" . }}
 </html>

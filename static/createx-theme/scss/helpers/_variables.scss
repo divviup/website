@@ -48,7 +48,7 @@ $enable-responsive-font-sizes: true !default;
 
 
 // Sizes
-// 
+//
 // Modifying default Bootstrap's $sizes: map
 $sizes: () !default;
 $sizes: map-merge(
@@ -206,7 +206,7 @@ $zindex-gallery-backdrop:     1050 !default;
 //
 // Font, line-height, and color for body text, headings, and more.
 
-$path-to-fonts:               'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap' !default;
+// $path-to-fonts:               'https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap' !default;
 $path-to-icons:               url('../fonts/createx-icons.ttf?h4y910') format('truetype'),
                               url('../fonts/createx-icons.woff?h4y910') format('woff'),
                               url('../fonts/createx-icons.svg?h4y910#createx-icons') format('svg') !default;
@@ -390,7 +390,7 @@ $video-btn-transition:          background-color .3s ease-in-out,
 
 
 // Social buttons
-// 
+//
 // General
 $social-btn-border-width:           $border-width !default;
 $social-btn-border-radius:          $border-radius !default;
@@ -687,7 +687,7 @@ $nav-link-light-disabled-color: $gray-700 !default;
 
 
 // Navbar
-// 
+//
 // General
 $navbar-padding-y:                        $spacer !default;
 $navbar-padding-x:                        $spacer !default;
@@ -1111,7 +1111,7 @@ $portfolio-card-title-hover-color:  $primary !default;
 
 
 // Team card
-// 
+//
 // General
 $team-card-floating-links-padding-y:           1.25rem !default;
 $team-card-floating-links-padding-x:           1.25rem !default;
@@ -1135,7 +1135,7 @@ $team-card-alt-floating-links-bg:                  rgba($primary, .7) !default;
 
 
 // Steps
-// 
+//
 // Horizontal
 $step-indicator-size:                  3.75rem !default;
 $step-indicator-margin-x:              1.375rem !default;
@@ -1167,7 +1167,7 @@ $step-vertical-active-label-color:     $primary !default;
 
 
 // Widgets
-// 
+//
 // Range slider
 $range-slider-height:               .125rem !default;
 $range-slider-bg:                   $gray-400 !default;
@@ -1208,7 +1208,7 @@ $tag-pill-border-radius:            ($tag-font-size * $line-height-base + $tag-p
 
 
 // Carousel
-// 
+//
 // Navs (dots)
 $carousel-dots-spacing-y:                 $spacer * 1.5 !default;
 $carousel-dot-spacing-x:                  $spacer * .75 !default;
@@ -1286,7 +1286,7 @@ $gallery-cursor:                    url("data:image/svg+xml,<svg width='48' heig
 
 
 // Shop
-// 
+//
 // Product card
 $product-card-max-width:            22rem !default;
 $product-card-spacing:              $spacer !default;
