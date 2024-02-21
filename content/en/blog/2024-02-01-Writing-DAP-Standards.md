@@ -80,3 +80,26 @@ In this post, we've discussed some of the history of the Distributed Aggregation
 As we noted at the start of this post, the Divvi Up engineering team had no prior experience of standards work before writing DAP, but we benefited from the advice and guidance of several well-established IETF participants. Now, we want to pay that forward by welcoming a further cohort of new IETF participants. We hope that this discussion will make the standards process seem more approachable. Come say hi [on the mailing list](mailto:ppm@ietf.org) or at the next IETF plenary meeting and we'll welcome you to the IETF community!
 
 If you're interested in becoming a Divvi Up user, please join our [waitlist](https://divviup.org/get-involved#waitlist).
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var clickableAreas = document.querySelectorAll('svg a[id^="link-"]');
+    clickableAreas.forEach(function(element) {
+        var bbox = element.getBBox();
+        var rect = document.createElementNS("http://www.w3.org/2000/svg", "rect");
+        rect.setAttribute("x", bbox.x);
+        rect.setAttribute("y", bbox.y);
+        rect.setAttribute("width", bbox.width);
+        rect.setAttribute("height", bbox.height);
+        rect.setAttribute("fill", "red");
+        rect.setAttribute("fill-opacity", "0.5"); // 50% opacity for debugging visibility
+        element.insertBefore(rect, element.firstChild);
+
+        element.addEventListener('click', function(event) {
+            event.preventDefault();
+            var url = this.getAttribute('href');
+            window.open(url, '_blank')
+        });
+    });
+});
+</script>
