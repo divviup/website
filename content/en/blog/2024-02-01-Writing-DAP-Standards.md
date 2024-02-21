@@ -28,6 +28,11 @@ Once a working group is formed, the next step is to get a document adopted by it
 
 Engineers from Divvi Up, Cloudflare Research and Mozilla began work on what would become DAP in February of 2021. We called the earliest versions Private Data Aggregation and then Privacy Preserving Measurement (PPM). But by IETF 113, in March of 2022, the PPM name had been taken by the newly-minted working group, and so the chairs renamed the protocol to Distributed Aggregation Protocol and draft-ietf-ppm-dap-00 was adopted.
 
+{{< svg "static/images/blog/2024-02-24-timeline.svg" >}}
+
+Preview
+-------
+
 ![](/images/blog/2024-02-24-timeline.png)
 
 Iterating on drafts
