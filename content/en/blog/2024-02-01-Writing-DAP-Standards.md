@@ -1,7 +1,6 @@
 ---
 author: Tim Geoghegan
-date: 2024-02-20T00:00:00Z
-actual-date: 2024-02-21T00:00:00Z
+date: 2024-02-21T00:00:00Z
 slug: Writing-DAP-Standards
 title: "The Distributed Aggregation Protocol: A First-Time Editor's View of Writing Standards at the IETF"
 excerpt: "What we’ve learned and how we’ve evolved Divvi Up through the process of writing an Internet Standard in the IETF."
