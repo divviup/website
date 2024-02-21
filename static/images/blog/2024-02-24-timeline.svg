@@ -80,6 +80,7 @@
 			<path d="M 309 535 L 392 535 L 392 535.769531 L 309 535.769531 Z M 320.214844 535.769531 L 392 535.769531 L 392 537 L 320.214844 537 Z M 309 535.769531 L 316.277344 535.769531 L 316.277344 537 L 309 537 Z M 309 535.769531 " clip-rule="nonzero" />
 		</clipPath>
 		<clipPath id="75c83362fb">
+
 			<path d="M 436.761719 75.574219 L 620.566406 75.574219 L 620.566406 147.855469 L 436.761719 147.855469 Z M 436.761719 75.574219 " clip-rule="nonzero" />
 		</clipPath>
 		<clipPath id="f3d7552af0">
@@ -1363,7 +1364,9 @@
 	<path stroke-linecap="round" transform="matrix(0, -0.748891, 0.748891, 0, 275.20786, 311.724053)" fill-opacity="1" fill="#000000" fill-rule="nonzero" stroke-linejoin="round" d="M 10.001032 -4.001817 L 1.999612 2.001856 L 10.001032 8.000313 Z M 10.001032 -4.001817 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" />
 	<g clip-path="url(#4baf94283e)">
 		<g clip-path="url(#1f3fd3d02a)">
+		<a href="https://datatracker.ietf.org/doc/draft-irtf-cfrg-vdaf/00/" id="link-6">
 			<path fill="#00aaff" d="M 300.136719 475.296875 L 469.140625 475.296875 L 469.140625 586.519531 L 300.136719 586.519531 Z M 300.136719 475.296875 " fill-opacity="1" fill-rule="nonzero" />
+			</a>
 		</g>
 	</g>
 	<g clip-path="url(#99eb3b7563)">
@@ -1900,7 +1903,9 @@
 	</g>
 	<g clip-path="url(#75c83362fb)">
 		<g clip-path="url(#f3d7552af0)">
+		<a href="https://datatracker.ietf.org/doc/draft-dcook-ppm-dap-interop-test-design/00/" id="link-9">
 			<path fill="#00aaff" d="M 436.761719 75.574219 L 620.566406 75.574219 L 620.566406 147.855469 L 436.761719 147.855469 Z M 436.761719 75.574219 " fill-opacity="1" fill-rule="nonzero" />
+			</a>
 		</g>
 	</g>
 	<g clip-path="url(#1bf5267b31)">
@@ -2272,7 +2277,9 @@
 	<path stroke-linecap="round" transform="matrix(0, -0.748891, 0.748891, 0, 527.121282, 311.723382)" fill-opacity="1" fill="#000000" fill-rule="nonzero" stroke-linejoin="round" d="M 10.000136 -4.000962 L 1.998716 1.997495 L 10.000136 8.001168 Z M 10.000136 -4.000962 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" />
 	<g clip-path="url(#89d0e6c471)">
 		<g clip-path="url(#e48ca37c2f)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/01/" id="link-8">
 			<path fill="#00aaff" d="M 484.066406 404.277344 L 588.792969 404.277344 L 588.792969 479.164062 L 484.066406 479.164062 Z M 484.066406 404.277344 " fill-opacity="1" fill-rule="nonzero" />
+		</a>
 		</g>
 	</g>
 	<g clip-path="url(#68308911e2)">
@@ -2468,7 +2475,9 @@
 	<path stroke-linecap="round" transform="matrix(0.00000000130706, -0.748891, 0.748891, 0.00000000130706, 511.918517, 404.274431)" fill-opacity="1" fill="#000000" fill-rule="nonzero" stroke-linejoin="round" d="M 46.085125 -4.001443 L 54.086545 2.00223 L 46.085125 8.000687 Z M 46.085125 -4.001443 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" />
 	<g clip-path="url(#e4d35cbc40)">
 		<g clip-path="url(#d872885eed)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/02/" id="link-10">
 			<path fill="#00aaff" d="M 554.082031 198.230469 L 658.8125 198.230469 L 658.8125 273.121094 L 554.082031 273.121094 Z M 554.082031 198.230469 " fill-opacity="1" fill-rule="nonzero" />
+			</a>
 		</g>
 	</g>
 	<g clip-path="url(#bfbb8fcf49)">
@@ -2655,7 +2664,9 @@
 	</g>
 	<g clip-path="url(#f91b0e7a09)">
 		<g clip-path="url(#13f2e27fc8)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/03/" id="link-11">
 			<path fill="#00aaff" d="M 579.347656 511.628906 L 684.078125 511.628906 L 684.078125 586.519531 L 579.347656 586.519531 Z M 579.347656 511.628906 " fill-opacity="1" fill-rule="nonzero" />
+			</a>
 		</g>
 	</g>
 	<g clip-path="url(#fa0d56c7c0)">
@@ -2835,7 +2846,9 @@
 	</g>
 	<g clip-path="url(#f0c761fc76)">
 		<g clip-path="url(#39f44cb578)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/07/" id="link-15">
 			<path fill="#0114b5" d="M 845.1875 511.628906 L 949.914062 511.628906 L 949.914062 586.519531 L 845.1875 586.519531 Z M 845.1875 511.628906 " fill-opacity="1" fill-rule="nonzero" />
+		</a>
 		</g>
 	</g>
 	<g clip-path="url(#239c35cb96)">
@@ -3022,7 +3035,9 @@
 	</g>
 	<g clip-path="url(#4d9ed6e23b)">
 		<g clip-path="url(#eec42a09ec)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/05/" id="link-13">
 			<path fill="#0114b5" d="M 739.742188 404.277344 L 844.46875 404.277344 L 844.46875 479.164062 L 739.742188 479.164062 Z M 739.742188 404.277344 " fill-opacity="1" fill-rule="nonzero" />
+		</a>
 		</g>
 	</g>
 	<g clip-path="url(#473717ed0e)">
@@ -3216,7 +3231,9 @@
 	</g>
 	<g clip-path="url(#905ae06a15)">
 		<g clip-path="url(#e5b1aab3c6)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/04/" id="link-12">
 			<path fill="#0114b5" d="M 680.410156 74.824219 L 785.136719 74.824219 L 785.136719 149.714844 L 680.410156 149.714844 Z M 680.410156 74.824219 " fill-opacity="1" fill-rule="nonzero" />
+		</a>
 		</g>
 	</g>
 	<g clip-path="url(#67a8ca8a8f)">
@@ -3403,7 +3420,9 @@
 	</g>
 	<g clip-path="url(#f9f9e45e17)">
 		<g clip-path="url(#0c75abdeee)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/06/" id="link-14">
 			<path fill="#0114b5" d="M 799.503906 198.230469 L 904.230469 198.230469 L 904.230469 273.121094 L 799.503906 273.121094 Z M 799.503906 198.230469 " fill-opacity="1" fill-rule="nonzero" />
+		</a>
 		</g>
 	</g>
 	<g clip-path="url(#7061358472)">
@@ -3638,6 +3657,7 @@
 			</g>
 		</g>
 	</g>
+	<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/08/" id="link-17-a">
 	<path fill="#ffffff" d="M 884.210938 116.765625 L 958.539062 116.765625 L 958.539062 117.511719 L 884.210938 117.511719 Z M 884.210938 116.765625 " fill-opacity="1" fill-rule="nonzero" />
 	<g fill="#ffffff" fill-opacity="1">
 		<g transform="translate(884.210702, 116.01511)">
@@ -3712,6 +3732,7 @@
 			</g>
 		</g>
 	</g>
+	</a>
 	<g fill="#ffffff" fill-opacity="1">
 		<g transform="translate(958.538085, 116.01511)">
 			<g />
@@ -3743,6 +3764,7 @@
 			<g />
 		</g>
 	</g>
+	<a href="https://datatracker.ietf.org/doc/draft-mouris-cfrg-mastic/" id="link-17-b">
 	<path fill="#ffffff" d="M 853.4375 136.234375 L 949.855469 136.234375 L 949.855469 136.984375 L 853.4375 136.984375 Z M 853.4375 136.234375 " fill-opacity="1" fill-rule="nonzero" />
 	<g fill="#ffffff" fill-opacity="1">
 		<g transform="translate(853.435983, 135.486263)">
@@ -3838,6 +3860,7 @@
 			</g>
 		</g>
 	</g>
+	</a>
 	<g fill="#ffffff" fill-opacity="1">
 		<g transform="translate(949.855636, 135.486263)">
 			<g />
@@ -3908,7 +3931,9 @@
 	</g>
 	<g clip-path="url(#514e131be0)">
 		<g clip-path="url(#ad13f0ce36)">
+		<a href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/09/" id="link-18">
 			<path fill="#0114b5" d="M 963.066406 198.230469 L 1067.792969 198.230469 L 1067.792969 273.121094 L 963.066406 273.121094 Z M 963.066406 198.230469 " fill-opacity="1" fill-rule="nonzero" />
+		</a>
 		</g>
 	</g>
 	<g clip-path="url(#3c39a3e7ed)">
@@ -4095,8 +4120,10 @@
 	</g>
 	<g clip-path="url(#c57ca45920)">
 		<g clip-path="url(#269d64eb0c)">
+		<a href="https://datatracker.ietf.org/doc/review-ietf-ppm-dap-09-httpdir-early-nottingham-2023-12-29/" id="link-19">
 			<path fill="#0114b5" d="M 963.066406 405.027344 L 1090.65625 405.027344 L 1090.65625 496.777344 L 963.066406 496.777344 Z M 963.066406 405.027344 " fill-opacity="1" fill-rule="nonzero" />
 		</g>
+		</a>
 	</g>
 	<g clip-path="url(#6853da96c8)">
 		<g clip-path="url(#c5dbe4bf08)">
@@ -4805,7 +4832,9 @@
 	</g>
 	<g clip-path="url(#97ed882837)">
 		<g clip-path="url(#9d2b01cbb0)">
+		<a id="link-7" href="https://datatracker.ietf.org/doc/draft-ietf-ppm-dap/00/">
 			<path fill="#00aaff" d="M 331.917969 198.230469 L 436.644531 198.230469 L 436.644531 273.121094 L 331.917969 273.121094 Z M 331.917969 198.230469 " fill-opacity="1" fill-rule="nonzero" />
+			</a>
 		</g>
 	</g>
 	<g clip-path="url(#8c65dc0a87)">
@@ -4999,13 +5028,4 @@
 	<path stroke-linecap="round" transform="matrix(0, -0.748891, 0.748891, 0, 358.390522, 475.29276)" fill-opacity="1" fill="#000000" fill-rule="nonzero" stroke-linejoin="round" d="M 140.916517 -4.000572 L 148.917937 1.997885 L 140.916517 8.001558 Z M 140.916517 -4.000572 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" />
 	<path stroke-linecap="butt" transform="matrix(-0.00795161, -0.748848, 0.748848, -0.00795161, 162.550915, 494.781911)" fill="none" stroke-linejoin="miter" d="M 0.00053518 1.997687 L 165.92717 2.001662 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" />
 	<path stroke-linecap="round" transform="matrix(-0.00795161, -0.748848, 0.748848, -0.00795161, 162.550915, 494.781911)" fill-opacity="1" fill="#000000" fill-rule="nonzero" stroke-linejoin="round" d="M 166.929863 -4.002135 L 174.930616 1.998154 L 166.927604 8.000647 Z M 166.929863 -4.002135 " stroke="#000000" stroke-width="4" stroke-opacity="1" stroke-miterlimit="4" />
-	<style>
-	a {
-		border: 2px solid red;
-		opacity: .4;
-		cursor: pointer;
-		display: block;
-		padding: 10px;
-	}
-	</style>
 </svg>

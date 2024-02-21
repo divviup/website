@@ -30,11 +30,6 @@ Engineers from Divvi Up, Cloudflare Research and Mozilla began work on what woul
 
 {{< svg "static/images/blog/2024-02-24-timeline.svg" >}}
 
-Preview
--------
-
-![](/images/blog/2024-02-24-timeline.png)
-
 Iterating on drafts
 -------------------
 
@@ -92,7 +87,7 @@ document.addEventListener('DOMContentLoaded', function() {
         rect.setAttribute("width", bbox.width);
         rect.setAttribute("height", bbox.height);
         rect.setAttribute("fill", "red");
-        rect.setAttribute("fill-opacity", "0.5"); // 50% opacity for debugging visibility
+        rect.setAttribute("fill-opacity", "0");
         element.insertBefore(rect, element.firstChild);
 
         element.addEventListener('click', function(event) {
