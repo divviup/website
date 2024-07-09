@@ -3,28 +3,10 @@
   {{ partial "head.html" . }}
     {{ partial "header.html" . }}
       {{ partial "divvi/divvi_home_hero.html" }}
+      {{ partial "divvi/divvi_use_cases.html" }}
+      {{ partial "divvi/divvi_home-open-source.html" }}
+      {{ partial "divvi/divvi_home-contact.html" }}
       {{ partial "divvi/divvi_explanation_numbered.html" }}
       {{ partial "divvi/divvi_home_why_section.html" }}
-
-      <section id="blog-promo" class="py-5 py-md-5 bg-no-repeat bg-size-cover">
-        <div class="container py-3 pb-lg-0">
-          <h2 class="h1 mb-3 pb-lg-2 text-center">Recent Updates</h2>
-          <div class="row">
-            <div class="col-md-8 offset-md-2">
-
-                {{ $posts := where .Site.RegularPages "Type" "in" (slice "blog") | first 3 }}
-                {{ range $posts }}
-                  {{ partial "blog/blog_list_item.html" .}}
-                {{ end }}
-            </div>
-
-          </div>
-          </div>
-          <div class="fs-lg fw-bold text-center">
-            <a class="btn btn-primary" href="/blog">View the Blog</a>
-          </div>
-        </div>
-      </section>
-
   {{ partial "footer.html" . }}
 </html>

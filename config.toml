@@ -41,5 +41,6 @@ title = "Divvi Up"
 languageName ="English"
 # Weight used for sorting.
 weight = 1
+[languages.en.params]
 description = "Divvi Up is a privacy-respecting system for the collection of aggregate statistics such as application metrics, brought to you by the Internet Security Research Group."
 

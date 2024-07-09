@@ -176,3 +176,36 @@ video::-webkit-media-controls-panel {
     margin-top: 66px;
   }
 }
+
+.flex {
+  display: flex;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.use-case-image  {
+  max-width: 200px;
+}
+
+@media screen and (max-width: 500px) {
+  .use-case-image {
+    max-width: 120px;
+  }
+}
+
+.use-case-image-column {
+  width: 200px;
+  flex-shrink: 0;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+@media screen and (max-width: 500px) {
+  .use-case-image-column {
+    width: 120px;
+  }
+}
