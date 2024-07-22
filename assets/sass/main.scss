@@ -268,3 +268,9 @@ video::-webkit-media-controls-panel {
 .self-center {
   align-self: center;
 }
+
+div[data-netlify-site-id] {
+  /* Netlify Collaborate Drawer */
+  display: none;
+  pointer-events: none;
+}
