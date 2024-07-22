@@ -244,4 +244,27 @@ video::-webkit-media-controls-panel {
 
 .text-xs {
   font-size: 0.75rem;
+
+
+}
+  .isrg-card {
+    background: white;
+    width: 100%;
+    color: black;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    border: 1px solid var(--primary-accent-color);
+  }
+
+
+.isrg-card a,
+.isrg-card h5,
+.isrg-card h4 {
+  color: var(--primary-button-background-color)!important;
+}
+
+
+.self-center {
+  align-self: center;
 }
