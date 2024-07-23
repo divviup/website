@@ -7,13 +7,9 @@
 
 <p>Divvi Up is a privacy-respecting metrics service brought to you by the nonprofit <a href="https://abetterinternet.org">Internet Security Research Group (ISRG)</a>, which operates the <a href="https://letsencrypt.org">Let’s Encrypt</a> and <a href="https://memorysafety.org">Prossimo</a> projects. Read all about our nonprofit work this year in our <a href='https://abetterinternet.org/annual-reports'>2023 Annual Report</a>.</p>
             <br />
-            <br />
 
-            <!-- <ul class="nav nav- light flex-lg-column flex-sm-row flex-column">
-              <li class="nav-item mb-2"> -->
                 <a class="nav-link me-lg-0 me-sm-4 p-0 fw-normal" href="https://www.abetterinternet.org/trademarks" target="_isrg-trademarks">Trademark Policy <i class="ci-external-link mt-n1 ms-2"></i></a>
-              <!-- </li>
-            </ul> -->
+                <a class="nav-link me-lg-0 me-sm-4 p-0 fw-normal" href="https://www.abetterinternet.org/privacy-policy" target="_isrg-trademarks">Privacy Policy <i class="ci-external-link mt-n1 ms-2"></i></a>
 
 
           </div>
@@ -51,8 +47,9 @@
         <div class="row">
           <div class="d-flex align-items-flex-end align-items-sm-center justify-content-between py-1">
             <div class="fs-xs mt-4 pb-4 text-light">
-              <a href="https://abetterinternet.org" target="_blank">{{ .Site.Params.copyrighthtml | safeHTML}}</a>
-            </div>
+              {{ $currentYear := now.Year }}
+              <a href="https://abetterinternet.org" target="_blank">&copy; {{ $currentYear }} {{ .Site.Params.copyrighthtml | safeHTML}}</a>
+            </div>    </div>
             <!-- <div class="d-flex align-items-sm-center">
               <a class="d-flex justify-content-center align-items-center back-to-top-btn" href="#top" data-scroll="">
                 <span class="d-sm-inline-block d-none text-light fs-sm me-3 mb-1 align-vertical">Back to top</span>
