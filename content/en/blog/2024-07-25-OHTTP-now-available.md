@@ -62,28 +62,27 @@ The Oblivious HTTP gateway is already available in Divvi Up's production environ
 
 ```
 #[tokio::main]
-
 async  fn  main()  {
-
     // Create a task via the Divvi Up console, app or CLI and provide
     // its ID here.
-    let  task_id  =  random();
-    let  client  =  janus_client::Client::builder(
+    let task_id = random();
+    let client = janus_client::Client::builder(
         task_id,
-        Url::parse("https://dap-03-3.api.divviup.org/").unwrap(),
+        Url::parse("https://dap-09-3.api.divviup.org/").unwrap(),
         Url::parse("https://helper.example.com/").unwrap(),
         Duration::from_seconds(1),
         Prio3Count::new_count(2).unwrap(),
     )
     .with_ohttp_config(janus_client::OhttpConfig  {
-        key_configs:  Url::parse("https://dap-09-3.api.divviup.org/ohttp-keys").unwrap(),
+        key_configs: Url::parse("https://dap-09-3.api.divviup.org/ohttp-keys").unwrap(),
         // Work with an OHTTP relay vendor and provide the relay URI
         // here
-        relay:  Url::parse("https://ohttp-relay.example.com").unwrap(),
+        relay: Url::parse("https://ohttp-relay.example.com").unwrap(),
     })
     .build()
     .await
     .unwrap();
+    
     // Uploads will be encapsulated to the key configurations and
     // proxied via the relay
     client.upload(&true).await.unwrap();
