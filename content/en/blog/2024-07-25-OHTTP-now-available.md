@@ -3,7 +3,7 @@ author: Tim Geoghegan
 date: 2024-07-24T00:00:00Z
 slug: OHTTP-now-available
 title: "Oblivious HTTP now available on Divvi Up"
-excerpt: "We are pleased to announce that Divvi Up now includes an Oblivious HTTP (OHTTP) gateway."
+excerpt: "A stronger privacy posture with OHTTP and DAP for telemetry."
 ---
 
 We are pleased to announce that Divvi Up now includes an Oblivious HTTP (OHTTP) gateway, allowing Distributed Aggregation Protocol (DAP) clients to contribute measurements while minimizing what either aggregator learns about them.
