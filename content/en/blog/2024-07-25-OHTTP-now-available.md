@@ -1,6 +1,6 @@
 ---
 author: Tim Geoghegan
-date: 2024-07-24T00:00:00Z
+date: 2024-07-25T00:00:00Z
 slug: OHTTP-now-available
 title: "Oblivious HTTP now available on Divvi Up"
 excerpt: "A stronger privacy posture with OHTTP and DAP for telemetry."
