@@ -274,3 +274,12 @@ div[data-netlify-site-id] {
   display: none;
   pointer-events: none;
 }
+
+code[class*="language-"], pre[class*="language-"], pre {
+  margin-top: 1rem !important;
+  margin-bottom: 1rem !important;
+}
+
+a code {
+  color: #e3116c;
+}
