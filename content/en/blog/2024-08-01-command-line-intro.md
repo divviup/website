@@ -27,8 +27,10 @@ Our production Divvi Up environments have processed hundreds of millions of repo
 
 For the command line tutorial we use these same container images but configured via `docker compose` with the [compose.yaml](https://github.com/divviup/divviup-api/blob/main/compose.yaml) that we publish.
 
-![](/images/blog/2024-08-01-Command-Line-Intro-Divvi-Up-Architecture.png)
-*This is the complete architecture diagram of the Divvi Up leader role. There can be some simplifications depending on the needs though. For example, the helper role deploys a subset of these services and some services, like the garbage collector, can be run in-process instead of as a separate service.*
+<figure>
+<img src="/images/blog/2024-08-01-Command-Line-Intro-Divvi-Up-Architecture.png"  />
+<figcaption>This is the complete architecture diagram of the Divvi Up leader role. There can be some simplifications depending on the needs though. For example, the helper role deploys a subset of these services and some services, like the garbage collector, can be run in-process instead of as a separate service.</figcaption>
+</figure>
 
 As an open source project we also provide docs on how to get started with compiling and running all of the Divvi Up components on the [janus](https://github.com/divviup/janus?tab=readme-ov-file#building) and [divviup-api](https://github.com/divviup/divviup-api/tree/main?tab=readme-ov-file#local-development) git repos.
 
