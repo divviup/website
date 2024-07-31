@@ -8,8 +8,6 @@ images:
 - /images/blog/2024-08-01-Command-Line-Intro-Featured-Image.png
 ---
 
-![](/images/blog/2024-08-01-Command-Line-Intro-Featured-Image.png)
-
 Divvi Up enables organizations to collect telemetry while preserving individual user's privacy. This is accomplished by coordinating two non-colluding service providers in a protocol called the Distributed Aggregation Protocol (DAP). But, to make it easy to test and develop against the Divvi Up system we are releasing a tutorial today that can set up the entire Divvi Up stack in a few commands.
 
 Want to get to it? You can try out our [command line tutorial for Divvi Up](https://docs.divviup.org/command-line-tutorial) now or watch a video of the demo below. Or if you want some more behind the scenes on how all the divvi'ing happens, keep reading the rest of this post.

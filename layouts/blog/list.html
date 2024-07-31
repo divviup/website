@@ -3,8 +3,22 @@
   {{ $posts := where .Site.RegularPages "Type" "in" (slice "blog") }} {{ range
   $posts }}
   <div class="mb-5 blog_list_item">
+
     <div class="blog_list_item__date mb-2">{{ .Date.Format $.Site.Params.time_format_default }}</div>
+
+    {{ if isset .Params "images" }}
+    <div class="blog_list_item__image">
+      <a href="{{ .RelPermalink }}">
+    {{ with index .Params.images 0 }}
+        <img src="{{ . | absURL }}">
+
+        {{ end }}
+      </a>
+    </div>
+    {{ end }}
+
     <h2 class="mb-2"><a class="fw-bold" href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+
     <p class="mb-2">
       {{ with .Params.excerpt }} {{ . | markdownify }} {{ else }} {{ .Summary }}
       {{ end }}
