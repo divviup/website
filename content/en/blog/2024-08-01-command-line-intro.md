@@ -4,6 +4,8 @@ date: 2024-07-30T00:00:00Z
 slug: command-line-intro
 title: "Privacy preserving telemetry with Divvi Up - a command line introduction"
 excerpt: "Check out our tutorial video on how to get started with Divvi Up in five minutes."
+images:
+- /images/blog/2024-08-01-Command-Line-Intro-Featured-Image.png
 ---
 
 ![](/images/blog/2024-08-01-Command-Line-Intro-Featured-Image.png)

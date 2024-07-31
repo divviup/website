@@ -1,9 +1,6 @@
 <head>
   <meta charset="utf-8" />
-  <meta
-    name="viewport"
-    content="width=device-width, initial-scale=1, shrink-to-fit=no"
-  />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
   <title>
     {{ if ne .Title .Site.Title }}{{ .Title }} - {{ end }}{{ .Site.Title }}
   </title>
@@ -12,25 +9,15 @@
   <meta name="author" content="Internet Security Research Group" />
 
   {{ template "_internal/opengraph.html" . }}
-
-  <meta name="twitter:card" content="summary"/>
-	<meta name="twitter:image:src" content="{{ .Permalink }}{{ .Site.Params.social_share_twitter_square}}"/>
+  {{ template "_internal/twitter_cards.html" . }}
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png" />
   <meta name="msapplication-TileColor" content="#082659" />
   <meta name="theme-color" content="#082659" />
 
-  <link
-    rel="stylesheet"
-    media="screen"
-    href="/createx-theme/vendor/simplebar/dist/simplebar.min.css"
-  />
-  <link
-    rel="stylesheet"
-    media="screen"
-    href="/createx-theme/css/theme.min.css"
-  />
+  <link rel="stylesheet" media="screen" href="/createx-theme/vendor/simplebar/dist/simplebar.min.css" />
+  <link rel="stylesheet" media="screen" href="/createx-theme/css/theme.min.css" />
   {{ $style := resources.Get "/sass/main.scss" | resources.ToCSS |
   resources.Minify | resources.Fingerprint }}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}?v={{ now}}" />
