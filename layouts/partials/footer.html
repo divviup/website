@@ -15,7 +15,7 @@
           </div>
 
           <div class="col-lg-4  col-md-4 col-sm-6 mb-lg-0 mb-4">
-            <h6 class="mb-0">Subscribe to our Newsletter</h6>
+            <h6 class="mb-0">Subscribe for email updates about Divvi Up and other ISRG projects</h6>
             <iframe src="https://outreach.abetterinternet.org/l/1011011/2023-02-16/6l4j" width="100%" height="200" type="text/html" frameborder="0" allowTransparency="true" style="border: 0"></iframe>
           </div>
 
@@ -47,8 +47,7 @@
         <div class="row">
           <div class="d-flex align-items-flex-end align-items-sm-center justify-content-between py-1">
             <div class="fs-xs mt-4 pb-4 text-light">
-              {{ $currentYear := now.Year }}
-              <a href="https://abetterinternet.org" target="_blank">&copy; {{ $currentYear }} {{ .Site.Params.copyrighthtml | safeHTML}}</a>
+              <a href="https://abetterinternet.org" target="_blank">&copy; {{ dateFormat "2006" now }} {{ .Site.Params.copyrighthtml | safeHTML}}</a>
             </div>    </div>
             <!-- <div class="d-flex align-items-sm-center">
               <a class="d-flex justify-content-center align-items-center back-to-top-btn" href="#top" data-scroll="">
