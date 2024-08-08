@@ -1,6 +1,6 @@
 ---
 author: David Cook
-date: 2024-08-07T00:00:00Z
+date: 2024-08-08T00:00:00Z
 slug: combining-privacy-preserving-telemetry-with-differential-privacy
 title: "Combining Privacy Preserving Telemetry with Differential Privacy"
 excerpt: "An overview of the how differential privacy can be combined with the Distributed Aggregation Protocol, and related recent developments."
