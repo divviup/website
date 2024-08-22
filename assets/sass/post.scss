@@ -241,3 +241,35 @@ blockquote.blockquote::before {
   margin-right: 1rem;
   margin-bottom: 1rem;
 }
+
+
+
+
+@media screen and (min-width: 767.98px) {
+  .blockquote-intro-offset {
+    padding-left: 95px;
+    padding-right: 95px;
+  }
+}
+
+blockquote.blockquote::before {
+  color: #0015a7;
+}
+
+.tella-blog-post-image {
+  display:block;
+  @media screen and (min-width: 767.98px) {
+    margin-bottom: 20px;
+    margin-left: 20px;
+    top: 30px;
+    position: relative;
+    float: right;
+    max-height: 400px;
+  }
+  @media screen and (max-width: 767.97px) {
+    margin-left: auto;
+    margin-bottom: 40px;
+    margin-right: auto;
+    max-height: 70vh;
+  }
+}
