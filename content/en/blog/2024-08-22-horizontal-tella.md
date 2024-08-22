@@ -1,6 +1,6 @@
 ---
 author: Caro Hadad, Horizontal
-date: 2024-08-21T00:00:00Z
+date: 2024-08-22T00:00:00Z
 slug: horizontal-tella
 title: "Privacy Preserving Telemetry for Android Apps"
 excerpt: "A human rights defender nonprofit adds Divvi Up to their Android App."
