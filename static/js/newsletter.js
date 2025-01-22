@@ -1,7 +1,6 @@
 document.addEventListener('DOMContentLoaded', function() {
     const iframe = document.getElementById('newsletter-iframe');
     const siteKey = 'divviup';
-
     let hasResized = false;
 
     window.addEventListener('message', function(e) {
