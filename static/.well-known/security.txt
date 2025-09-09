@@ -1,0 +1,6 @@
+Canonical: https://divviup.org/.well-known/security.txt
+Contact: mailto:contact@divviup.org
+Expires: 2026-09-09T16:59:59Z
+Hiring: https://abetterinternet.org/careers/
+Preferred-Languages: en
+
