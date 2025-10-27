@@ -1,6 +1,16 @@
 Canonical: https://divviup.org/.well-known/security.txt
-Contact: mailto:contact@divviup.org
-Expires: 2026-09-09T16:59:59Z
+
+# Please note: We do not have a bug bounty program, and do not pay rewards. If you
+# have discovered a security issue with Divvi Up, please contact us with details or
+# a proof-of-concept which clearly demonstrate the issue.
+
+# Our security address
+Contact: mailto:security@divviup.org
+
+# Want to work here?
 Hiring: https://abetterinternet.org/careers/
+
+# While we are able to work in multiple languages, our preference for these issues is English
 Preferred-Languages: en
 
+Expires: 2026-10-27T16:59:59Z
