@@ -63,7 +63,7 @@ $readable_page_title_font: 52px;
     background-color: #fff;
 
     color: var(--blue-color) !important;
-    h1,h2,h3,a {
+    h1,h2,h3,a:not(.btn) {
 
       color: var(--blue-color) !important;
     }

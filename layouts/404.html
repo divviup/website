@@ -1,13 +1,17 @@
-{{ define "main"}}
-<section class="position-relative pt-5 pb-5">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-8 offset-md-2 text-center py-5">
-        <h1 class="display-4 mb-4">404 - Page Not Found</h1>
-        <p class="lead text-muted mb-5">The page you're looking for doesn't exist or has been moved.</p>
-        <a href="/" class="btn btn-primary">Return to Homepage</a>
+<!DOCTYPE html>
+<html class="tpl-post">
+  {{ partial "head.html" . }}
+  {{ partial "header.html" . }}
+  <main id="container-blog">
+    <div class="container-fluid pb-6">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center pt-6 pb-5">
+          <p class="display-4 mb-4">404 - Page Not Found</p>
+          <p class="lead text-muted mb-5">The page you're looking for doesn't exist or has been moved.</p>
+          <a href="/" class="btn btn-primary">Return to Homepage</a>
+        </div>
       </div>
     </div>
-  </div>
-</section>
-{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+</html>
