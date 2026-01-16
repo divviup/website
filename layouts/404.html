@@ -1,5 +1,17 @@
-{{ define "main"}}
-<section class="position-relative text-center pt-2 pb-2">
-  That page doesn't exist, please check the address.
-</section>
-{{ end }}
+<!DOCTYPE html>
+<html class="tpl-post">
+  {{ partial "head.html" . }}
+  {{ partial "header.html" . }}
+  <main id="container-blog">
+    <div class="container-fluid pb-6">
+      <div class="row">
+        <div class="col-md-8 offset-md-2 text-center pt-6 pb-5">
+          <p class="display-4 mb-4">404 - Page Not Found</p>
+          <p class="lead text-muted mb-5">The page you're looking for doesn't exist or has been moved.</p>
+          <a href="/" class="btn btn-primary">Return to Homepage</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  {{ partial "footer.html" . }}
+</html>
