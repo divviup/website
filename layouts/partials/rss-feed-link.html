@@ -1,0 +1,8 @@
+{{- $variant := .variant | default "light" -}}
+{{- $isDark := eq $variant "dark" -}}
+{{- with site.Home.OutputFormats.Get "RSS" -}}
+<a href="{{ .RelPermalink }}" class="rss-feed-link {{ if $isDark }}rss-feed-link--dark{{ end }}" title="Subscribe via RSS">
+  <span class="rss-icon" aria-hidden="true"></span>
+  RSS Feed
+</a>
+{{- end -}}
