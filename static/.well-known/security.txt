@@ -3,7 +3,7 @@ Canonical: https://divviup.org/.well-known/security.txt
 # Please note: We do not have a bug bounty program, and do not pay rewards. If you
 # have discovered a security issue with Divvi Up, please contact us with details or
 # a proof-of-concept which clearly demonstrate the issue.
-Bug-Bounty: false
+Bug-Bounty: False
 
 # Our security address
 Contact: mailto:security@divviup.org
