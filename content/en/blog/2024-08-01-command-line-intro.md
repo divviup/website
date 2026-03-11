@@ -14,7 +14,7 @@ Want to get to it? You can try out our [command line tutorial for Divvi Up](http
 
 
 <div style="aspect-ratio: 560/315; max-width: 560px;  margin: 40px auto; overflow: hidden;">
-    <iframe style="width: 100%; max-width: 100%;  height: 100%; border: none;" src="https://www.youtube.com/embed/z54EnRiSrtI" title="Divvi Up Command Line Demo - Under 5 Minutes" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe style="width: 100%; max-width: 100%;  height: 100%; border: none;" src="https://www.youtube.com/embed/z54EnRiSrtI" title="Divvi Up Command Line Demo - Under 5 Minutes" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
 
 
