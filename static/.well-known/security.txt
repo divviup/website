@@ -14,4 +14,4 @@ Hiring: https://abetterinternet.org/careers/
 # While we are able to work in multiple languages, our preference for these issues is English
 Preferred-Languages: en
 
-Expires: 2027-03-09T16:59:59Z
+Expires: 2027-09-01T16:59:59Z
