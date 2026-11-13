@@ -1,0 +1,7 @@
+.site-banner {
+  --site-banner-bg: var(--primary-button-background-color, #00aaff);
+  --site-banner-text: var(--primary-background-color, #0015a7);
+  --site-banner-button: var(--primary-background-color, #0015a7);
+  --site-banner-button-text: #ffffff;
+  --site-banner-gutter: 16px;
+}
