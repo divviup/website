@@ -103,8 +103,4 @@
         </nav>
       </div>
     </header>
-    {{ if .Site.Params.promoAnnouncementEnabled }}
-    <a id="promo_announcement" href="{{ .Site.Params.promoAnnouncementLink }}">
-      <span class="promo-title">{{ .Site.Params.promoAnnouncementText }}</span> →
-    </a>
-    {{ end }}
+    {{ partial "site-banner.html" (dict "page" . "container" "container px-0 px-xl-3") }}
